@@ -1,129 +1,155 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>Preyaansh Vij | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preyaansh Vij | Portfolio</title>
 
-<style>
-body{
-background:#0b1b34;
-color:white;
-font-family:Arial;
-text-align:center;
-margin:0;
-padding:0;
-}
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #0a1f3c, #081a33);
+            color: white;
+            text-align: center;
+        }
 
-section{
-margin:60px;
-}
+        nav {
+            padding: 15px;
+            background: #07152a;
+        }
 
-h1{
-font-size:50px;
-}
+        nav a {
+            margin: 0 15px;
+            color: #4da6ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-.skills span{
-display:inline-block;
-background:#1e3a5f;
-padding:10px 15px;
-margin:5px;
-border-radius:8px;
-}
+        h1 {
+            font-size: 48px;
+            margin-top: 40px;
+        }
 
-a{
-color:#4da6ff;
-text-decoration:none;
-}
+        .subtitle {
+            color: #a8c7fa;
+            margin-bottom: 10px;
+        }
 
-.nav{
-background:#071429;
-padding:15px;
-}
+        .links a {
+            color: #4da6ff;
+            margin: 0 8px;
+            text-decoration: none;
+        }
 
-.nav a{
-margin:20px;
-font-weight:bold;
-}
-</style>
+        section {
+            margin: 60px auto;
+            max-width: 900px;
+            padding: 0 20px;
+        }
 
+        .skills span {
+            display: inline-block;
+            background: #1e3a5f;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+        .project {
+            margin-top: 20px;
+        }
+
+        .project a {
+            color: #4da6ff;
+            display: inline-block;
+            margin-top: 8px;
+        }
+
+        footer {
+            margin: 50px 0;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="nav">
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</div>
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<section>
-<h1>Preyaansh Vij</h1>
-<p>Artificial Intelligence Student | AI & Systems Enthusiast</p>
+    <!-- HERO -->
+    <h1>Preyaansh Vij</h1>
+    <p class="subtitle">Software Engineer | AI + Systems + Cybersecurity</p>
+    <div class="links">
+        <a href="mailto:preyaanshvij@gmail.com">Email</a> |
+        <a href="https://github.com/Preyaansh" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/preyaansh-vij" target="_blank">LinkedIn</a>
+    </div>
 
-<p>
-<a href="mailto:preyaanshvij@gmail.com">Email</a> |
-<a href="https://github.com/Preyaansh">GitHub</a> |
-<a href="https://www.linkedin.com/in/preyaansh-vij-04198a3b7/">LinkedIn</a>
-</p>
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Software Engineering-focused AI student at NIIT University with strong interest in systems, cybersecurity, and machine learning. 
+            I build practical projects such as intrusion detection systems using real-world network data and enjoy working on scalable and production-oriented applications.
+        </p>
+    </section>
 
-</section>
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>Git</span>
+            <span>Docker</span>
+            <span>Machine Learning</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Scikit-learn</span>
+        </div>
+    </section>
 
-<section id="about">
-<h2>About Me</h2>
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
 
-<p>
-I am an Artificial Intelligence student at NIIT University interested in
-Machine Learning, Cybersecurity, Cloud Computing and Systems Engineering.
+        <div class="project">
+            <h3>AI-Based Intrusion Detection System</h3>
+            <p>
+                Machine learning-based intrusion detection system using Zeek network logs to detect SYN flood, DNS flood, and port scan attacks.
+                Built using Random Forest with real-time traffic analysis and data preprocessing pipeline.
+            </p>
+            <a href="https://github.com/Preyaansh" target="_blank">View on GitHub</a>
+        </div>
 
-I enjoy building practical projects involving AI systems, automation,
-data processing and scalable infrastructure.
-</p>
+        <div class="project">
+            <h3>Task Manager API</h3>
+            <p>
+                Simple full-stack task management application with CRUD functionality and REST APIs.
+                Built to demonstrate backend development, API design, and basic frontend integration.
+            </p>
+            <a href="https://github.com/Preyaansh" target="_blank">View on GitHub</a>
+        </div>
 
-</section>
+    </section>
 
-<section id="skills">
-<h2>Technical Skills</h2>
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: preyaanshvij@gmail.com</p>
+        <p>Phone: +91 8368490060</p>
+    </section>
 
-<div class="skills">
-
-<span>Python</span>
-<span>Docker</span>
-<span>Jenkins</span>
-<span>Git</span>
-<span>AWS</span>
-
-<span>Machine Learning</span>
-<span>Deep Learning</span>
-
-<span>Numpy</span>
-<span>Pandas</span>
-<span>Scikit-learn</span>
-
-</div>
-
-</section>
-
-<section id="projects">
-
-<h2>Projects</h2>
-
-<p><b>AI Based Intrusion Detection System</b></p>
-<p>
-Machine learning system to detect network attacks such as
-SYN Flood, DNS Flood and Port Scans using network traffic data.
-</p>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<p>Email: preyaanshvij@gmail.com</p>
-<p>Phone: +91 8368490060</p>
-
-</section>
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Preyaansh Vij</p>
+    </footer>
 
 </body>
 </html>
